@@ -13,6 +13,13 @@
 		2DC5D8741A73269600D8D64C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5D8731A73269600D8D64C /* Images.xcassets */; };
 		2DC5D8771A73269600D8D64C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5D8751A73269600D8D64C /* LaunchScreen.xib */; };
 		2DC5D8831A73269600D8D64C /* MultifenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5D8821A73269600D8D64C /* MultifenceTests.swift */; };
+		2DC5D88D1A74196600D8D64C /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5D88C1A74196600D8D64C /* Home.gpx */; };
+		2DDACF881A7F0E1C0076413A /* Gandy.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DDACF871A7F0E1C0076413A /* Gandy.gpx */; };
+		2DDACF8A1A7F0E250076413A /* Howard Frankland.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DDACF891A7F0E250076413A /* Howard Frankland.gpx */; };
+		2DDACF8C1A7F2EE00076413A /* 83rd Ave.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DDACF8B1A7F2EE00076413A /* 83rd Ave.gpx */; };
+		2DDACF8E1A7F2EEF0076413A /* 84th Ave.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DDACF8D1A7F2EEF0076413A /* 84th Ave.gpx */; };
+		2DDACF901A7F2EFC0076413A /* 85th Ave.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DDACF8F1A7F2EFC0076413A /* 85th Ave.gpx */; };
+		2DDACF921A7F2F0A0076413A /* 93rd Ave.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2DDACF911A7F2F0A0076413A /* 93rd Ave.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		2DC5D87C1A73269600D8D64C /* MultifenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultifenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC5D8811A73269600D8D64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DC5D8821A73269600D8D64C /* MultifenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultifenceTests.swift; sourceTree = "<group>"; };
+		2DC5D88C1A74196600D8D64C /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
+		2DDACF871A7F0E1C0076413A /* Gandy.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Gandy.gpx; sourceTree = "<group>"; };
+		2DDACF891A7F0E250076413A /* Howard Frankland.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Howard Frankland.gpx"; sourceTree = "<group>"; };
+		2DDACF8B1A7F2EE00076413A /* 83rd Ave.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "83rd Ave.gpx"; sourceTree = "<group>"; };
+		2DDACF8D1A7F2EEF0076413A /* 84th Ave.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "84th Ave.gpx"; sourceTree = "<group>"; };
+		2DDACF8F1A7F2EFC0076413A /* 85th Ave.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "85th Ave.gpx"; sourceTree = "<group>"; };
+		2DDACF911A7F2F0A0076413A /* 93rd Ave.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "93rd Ave.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 		2DC5D85E1A73269600D8D64C = {
 			isa = PBXGroup;
 			children = (
+				2DDACF911A7F2F0A0076413A /* 93rd Ave.gpx */,
+				2DDACF8F1A7F2EFC0076413A /* 85th Ave.gpx */,
+				2DDACF8D1A7F2EEF0076413A /* 84th Ave.gpx */,
+				2DDACF8B1A7F2EE00076413A /* 83rd Ave.gpx */,
+				2DDACF891A7F0E250076413A /* Howard Frankland.gpx */,
+				2DDACF871A7F0E1C0076413A /* Gandy.gpx */,
+				2DC5D88C1A74196600D8D64C /* Home.gpx */,
 				2DC5D8691A73269600D8D64C /* Multifence */,
 				2DC5D87F1A73269600D8D64C /* MultifenceTests */,
 				2DC5D8681A73269600D8D64C /* Products */,
@@ -161,9 +182,16 @@
 				TargetAttributes = {
 					2DC5D8661A73269600D8D64C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = P7CMGD5ENG;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					2DC5D87B1A73269600D8D64C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = P7CMGD5ENG;
 						TestTargetID = 2DC5D8661A73269600D8D64C;
 					};
 				};
@@ -193,7 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC5D8721A73269600D8D64C /* Main.storyboard in Resources */,
+				2DDACF8C1A7F2EE00076413A /* 83rd Ave.gpx in Resources */,
+				2DDACF881A7F0E1C0076413A /* Gandy.gpx in Resources */,
 				2DC5D8771A73269600D8D64C /* LaunchScreen.xib in Resources */,
+				2DDACF901A7F2EFC0076413A /* 85th Ave.gpx in Resources */,
+				2DDACF8A1A7F0E250076413A /* Howard Frankland.gpx in Resources */,
+				2DDACF8E1A7F2EEF0076413A /* 84th Ave.gpx in Resources */,
+				2DDACF921A7F2F0A0076413A /* 93rd Ave.gpx in Resources */,
+				2DC5D88D1A74196600D8D64C /* Home.gpx in Resources */,
 				2DC5D8741A73269600D8D64C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +393,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -369,6 +406,7 @@
 				INFOPLIST_FILE = MultifenceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multifence.app/Multifence";
 			};
 			name = Debug;
@@ -377,6 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +424,7 @@
 				INFOPLIST_FILE = MultifenceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multifence.app/Multifence";
 			};
 			name = Release;
@@ -407,6 +448,7 @@
 				2DC5D8881A73269600D8D64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DC5D8891A73269600D8D64C /* Build configuration list for PBXNativeTarget "MultifenceTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +457,7 @@
 				2DC5D88B1A73269600D8D64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
